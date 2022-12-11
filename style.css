@@ -3,11 +3,13 @@
 }
 
 body{
+	
 	position: relative;
 	height: auto;
 	padding-bottom: 150px;
 	max-height: 10000px;
-	background: #EDF5F3;
+	/*background: #EDF5F3;*/
+	background:#000000;
 	margin: auto;
 	text-align: center;
 }
