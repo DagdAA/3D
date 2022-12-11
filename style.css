@@ -389,4 +389,11 @@ border-right: 1px solid;
 		margin-top: 12.7%;
 		width: auto; max-height: 200px;
 	}
+	.pies{
+		top: 160%;
+	}
+	.fin{
+		top: 164.5%;
+		height: 30px;
+	}
 }
