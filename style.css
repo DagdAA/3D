@@ -7,7 +7,7 @@ body{
 	height: auto;
 	padding-bottom: 150px;
 	min-height: 100vh;
-	background: rgb(250 250 250);
+	background: #EDF5F3;
 	margin: auto;
 	text-align: center;
 }
@@ -22,32 +22,17 @@ body{
 /*LOGO*/
 #cabeza {
 	width: 100%; max-height: 200px; min-height: 150px;
-	background-color: #001A57;
+	background-color: #454EFF;
 
 	margin-top: 0px;
 }
 /*LOGO*/
-.logo{
-	position: absolute;
-	width: 100px;
-	top:25px;
-	left: 20px;
-	padding: 10px;
-	border-left: 2px solid rgb(255 255 255);
-	border-right: 2px solid rgb(255 255 255);
-	border-radius: 50%;
-}
-.logo:hover{
 
-	transform: rotate(-60deg) ;
-	border-radius: 50%;
-	transition: 1s linear .1s ;
-}
 #cabeza > p{
-	color: rgb(255, 255, 255);
+	color:#000000;
 	font-family: fantasy;
 	letter-spacing: 10px;
-	margin-left: -750px;
+	margin-left: -950px;
 	margin-top:10px;
 	display: inline-block;
 	font-size: 100px;
@@ -58,14 +43,25 @@ body{
 #cabeza > p:hover{
 	font-size: 98px;
 }
-
-
+/*BUSCADOR*/
+.buscador{
+	position: absolute;
+	top: 107px;
+	left: 30%;
+}
+#q{
+	width: 70px; height: 30px;
+}
+#text{
+	width: 300px; height: 30px;
+}
 
 /*MENU*/
 #menu{
+	border-top: 1px solid #ffffff;
 	width: 100%; min-height: 20px;
 	background: #4682b4;
-	margin: 0 0 80px 0;
+	margin: 0 0 50px 0;
 }
 
 #menu > div{
@@ -76,80 +72,95 @@ body{
 }
 
 #menu div > a{
-	padding: 10px 10px 7.5px 10px;
+	padding: 11px 10px 8px 10px;
 	color: rgb(255 255 255);
 	text-decoration: none;
 	letter-spacing: 2px;
 }
 #menu div > a:hover{
-	background: rgb(164 163 170);
+	background: #DAF4F4;
 	color: rgb(0, 0, 0);
-	transition: .5s linear .1s;
+	transition: .2s ease-in-out ;
 }
 
 /*PRODUCTOS INICIO*/
 
+
+#productosR h2{
+	text-align: left;
+	margin: 0 0px 10px 20px;
+	color: #2B2C2B;
+	font-size: 30px;
+	font-family: arial;
+	letter-spacing: 5px;
+}
+
 #productosR{
-	background: rgb(227, 234, 254);
+	
 	padding: 10px;
-	width: 100%;
+	width: 99%;
 	border-radius: .5%;
 	height: auto;
 	margin: auto;
 }
 #productosR > div{
-	background: rgb(255 255 255);
+	background: #ffffff;
 	margin: 10px 7px 10px 7px;
 	display: inline-block;
 	width: 310px; height: 390px;
-	border: 0px solid;
+	border: 2px solid #F2EFEF;
 	border-radius: 5%;
 }
 #productosR > div:hover{
 	color: rgb(0, 0, 0);
 	box-shadow: 0 10px 7px rgba(0,0,0, 0.5);
-	transition: color 0.8s linear 0.2s;
 	transform: translate(0, -5px);
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
 }
 
 #productosR div > img{
-	width: 200px;
-	padding-top: 25px;
-	padding-bottom:60px;
+	width: 280px; height: auto;
+	padding-top: 0px;
+	padding-bottom:10px;
+	border-bottom: 1px solid rgb(227 222 222);
 	
 }
 
 #productosR div > p{
 	letter-spacing: 1px;
-	border-top:1px solid rgb(227 222 222);
 	margin-bottom: 15px;
 }
 #precio{
 padding: 9px 2px 0 0;
-width: 98%;
-margin: auto;
-font-size: 25px;
-font-family: sans-serif;
-color: rgb(0, 0, 0);
+width: 90%;
+text-align: left;
+margin-left: 20px;
+font-size: 18px;
+font-family: mosk;
+}
+
+
+#producto{
+	
+	border: solid;
 }
 .comprar{
 	text-decoration: none;
 	color: rgb(0, 0, 0);
-	letter-spacing: 9px;
-	border-radius: 5.5%;
-	padding: 0 10px 0 10px;
+	letter-spacing: 5px;
+	border-radius:10px ;
+	background: #F0F3F3;
 	margin: auto ;
-	padding: 5px;
-	background:rgb(175	228	222	);
-
-	font-size: 18px;
-	box-shadow: .3px 5px 3px rgba(0,0,0, 0.5);
+	padding: 12px 90px 12px 90px;
+	font-size: 13px;
+	
+	
 }
 .comprar:hover{
-	padding: 7px;
-	border: .5px solid rgb(29	172	214);
-
+	background-color: #C8DABC;
 }
+
 
 /*MUESTRA*/
 
@@ -205,21 +216,88 @@ color: rgb(0, 0, 0);
 .pies{
 	border-top: 1px solid grey;
 	width: 100%; height: 500px;
-	background: rgb(0, 0, 0);
+	background: #020518;
 	position: absolute;
 	top: 110%;
 	bottom: 0;
+
 }
 .pies{/*grid*/
-	color: red;
+	color: #ffffff;
 	display: grid;
 	 grid-template-columns: 1fr 1fr 1fr;
 	 grid-gap: 50px;
 }
-.pies div{
-	overflow: hidden;
-	padding-top: 20px;
-	margin: 0 15px 0 15px;
+
+.pies > .redes, .texto, .contacto{
+
+	height: 350px;
+	padding: 10px 15px 0 0;
 	margin-top: 30px;
-	border-bottom: 2px solid rgb(255 255 255);
 }
+.pies h3{
+	font-size: 30px;
+}
+.texto{
+border-right: 1px solid;
+}
+
+.redes{
+border-right: 1px solid;
+}
+
+/*CODIGOS DESCUENTO*/
+
+.fin{
+	padding: 5px;
+	margin: auto;
+	color: #000000;
+	position: absolute;
+	width: 100%; height: 30px;
+	top: 138%;
+	bottom: 0;
+}
+
+.fin{
+	border-radius: 1%;
+	margin: 20px auto;
+	background: #FFFB00;
+	width: 100%; height: 33px;
+	overflow: hidden;
+
+}
+
+.fin ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: rotar 50s infinite;
+	animation-direction: initial, normal;
+	animation-timing-function: linear;
+}
+
+.fin li{
+	width: 100%;
+	list-style: none;
+}
+
+.fin p{
+	padding: 5px;
+	 width: auto;
+	 max-height:20px;
+	
+}
+
+@keyframes rotar{
+	from{
+		margin-left: 0%;
+		width: 300%;
+	}
+
+	to{
+		margin-left: -100%;
+		width: 100%;
+	}
+}
+
