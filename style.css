@@ -311,7 +311,7 @@ border-right: 1px solid;
 	}
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:1080px){
 	#cabeza > p{
 		margin:auto;
 		font-size: 50px
