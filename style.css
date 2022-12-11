@@ -304,7 +304,7 @@ border-right: 1px solid;
 
 
 /*MEDIAS QUERRIES*/
-@media screen and (max-width:1080px) and (min-width:800px){
+@media screen and (max-width:1080px) and (min-width:800px){/*GRANDE*/
 	#cabeza > p{
 		padding-left: 10px;
 		margin:auto;
@@ -321,7 +321,7 @@ border-right: 1px solid;
 	}
 }
 
-@media screen and (max-width:799px) and (min-width:672px){
+@media screen and (max-width:799px) and (min-width:672px){/*MEDIANO*/
 	#cabeza > p{
 		margin-left: -350px;
 		font-size: 90px;
@@ -333,19 +333,26 @@ border-right: 1px solid;
 	}
 }
 
-@media screen and (max-width:671px) and (min-width:300px){
+@media screen and (max-width:671px) and (min-width:540px){/*PEQUEÑO*/
 	#cabeza > p{
 		margin:10px auto;
 		font-size: 50px
 	}
 	#text{
 		width: 150px;
-		margin:auto;
+		margin:-10px auto;
 	}
 	#productosR > div{
-		margin: auto;
-		width: 98%;
-		padding:2%;
+		margin: 30px auto;
+		min-width: 450px; height: 510px;
+	}
+	#productosR  img{
+		margin-top: 60px;
+		
+		width: 100px;
+	}
+	#precio{
+		margin-top: 50px;
 	}
 	.slider img{
 		margin-top: 12.7%;
@@ -353,3 +360,33 @@ border-right: 1px solid;
 	}
 
 }
+
+
+@media screen and (max-width:539px) and (min-width:250px){/*CELULARES*/
+
+	#cabeza > p{
+		margin:30px auto;
+		font-size: 50px
+	}
+	#text{
+		width: 150px;
+		margin:-8px auto;
+	}
+	#productosR > div{
+		margin: 30px auto;
+		min-width: 95%; height: 510px;
+	}
+	#productosR  img{
+		margin-top: 60px;
+		
+		width: 90px;
+	}
+	#precio{
+		margin-top: 50px;
+	}
+	.slider img{
+		margin-top: 12.7%;
+		width: auto; max-height: 200px;
+	}
+}
+
