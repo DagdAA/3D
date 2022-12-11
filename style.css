@@ -309,5 +309,11 @@ border-right: 1px solid;
 margin-left:-50px;
 
 }
+#productosR > div{
 
+	margin: 10px 7px 10px 7px;	display: inline-block;
+
+	min-width: 410px; height: 400px;
+
+}
 }
