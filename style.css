@@ -302,18 +302,23 @@ border-right: 1px solid;
 }
 
 
-@media (max-height:500px;){
+
+@media (max-width:500px;){
 
 #cabeza p{
 
 margin-left:-50px;
 
 }
+
 #productosR > div{
 
-	margin: 10px 7px 10px 7px;	display: inline-block;
+	margin: 10px 7px 10px 7px;
+
+	display: inline-block;
 
 	min-width: 410px; height: 400px;
 
 }
+
 }
