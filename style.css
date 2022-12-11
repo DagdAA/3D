@@ -382,11 +382,11 @@ border-right: 1px solid;
 		width: 90px;
 	}
 	#precio{
-		margin-top: 50px;
+		margin:30px 0px  0px 30px;
+		padding-bottom: 15px;
 	}
 	.slider img{
 		margin-top: 12.7%;
 		width: auto; max-height: 200px;
 	}
 }
-
