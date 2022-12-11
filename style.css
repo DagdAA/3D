@@ -6,7 +6,7 @@ body{
 	position: relative;
 	height: auto;
 	padding-bottom: 150px;
-	min-height: 100vh;
+	max-height: 10000px;
 	background: #EDF5F3;
 	margin: auto;
 	text-align: center;
@@ -98,7 +98,6 @@ body{
 #productosR{
 	
 	padding: 10px;
-	min-width: 99%;
 	border-radius: .5%;
 	height: auto;
 	margin: auto;
@@ -303,31 +302,22 @@ border-right: 1px solid;
 
 
 
-@media (max-width:500px;){
+/*MEDIAS QUERRIES*/
 
-#cabeza p{
 
-margin-left:-50px;
-
+@media screen and (max-width:800px){
+	#cabeza > p{
+		font-size: 500px;
+	}
 }
 
-#productosR > div{
-
-	margin: 10px 7px 10px 7px;
-
-	display: inline-block;
-
-	min-width: 410px; height: 400px;
-
-}
-
-}
-@media (min-width:250px;){
-
-.buscador{	position: absolute;	top: 90px;	left: 20%;}
-
-#q{	width: 60px; height: 20px;}
-
-#text{	width: 200px; height: 30px;}
-
+@media screen and (max-width:400px){
+	#cabeza > p{
+		margin:auto;
+		font-size: 50px
+	}
+	#text{
+		width: 150px;
+		margin-left: -50px;
+	}
 }
