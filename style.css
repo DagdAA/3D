@@ -303,21 +303,52 @@ border-right: 1px solid;
 
 
 /*MEDIAS QUERRIES*/
-
-
-@media screen and (max-width:800px){
+@media screen and (max-width:1080px) and (min-width:800px){
 	#cabeza > p{
-		font-size: 500px;
+		padding-left: 10px;
+		margin:auto;
+		margin-left: -400px;
+		font-size: 100px;
+	}
+	#text{
+		width: 200px;
+		margin-left: 200px;
+	}
+
+	#productosR > h2{
+		margin-left: 100px;
 	}
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:799px) and (min-width:672px){
 	#cabeza > p{
-		margin:auto;
+		margin-left: -350px;
+		font-size: 90px;
+	}
+	#text{
+		width: 200px;
+		margin-left:180px;
+		margin-top: -150px;
+	}
+}
+
+@media screen and (max-width:671px) and (min-width:300px){
+	#cabeza > p{
+		margin:10px auto;
 		font-size: 50px
 	}
 	#text{
 		width: 150px;
-		margin-left: -50px;
+		margin:auto;
 	}
+	#productosR > div{
+		margin: auto;
+		width: 98%;
+		padding:2%;
+	}
+	.slider img{
+		margin-top: 12.7%;
+		width: auto; max-height: 200px;
+	}
+
 }
