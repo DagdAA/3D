@@ -8,8 +8,7 @@ body{
 	height: auto;
 	padding-bottom: 150px;
 	max-height: 10000px;
-	/*background: #EDF5F3;*/
-	background:#000000;
+	background: #EDF5F3;
 	margin: auto;
 	text-align: center;
 }
