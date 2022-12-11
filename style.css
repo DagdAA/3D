@@ -322,3 +322,12 @@ margin-left:-50px;
 }
 
 }
+@media (min-width:250px;){
+
+.buscador{	position: absolute;	top: 90px;	left: 20%;}
+
+#q{	width: 60px; height: 20px;}
+
+#text{	width: 200px; height: 30px;}
+
+}
