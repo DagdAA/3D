@@ -2,8 +2,9 @@
 	padding: 0; margin: 0; box-sizing: border-box;
 }
 
+
+
 body{
-	
 	position: relative;
 	height: auto;
 	padding-bottom: 150px;
@@ -225,18 +226,18 @@ font-family: mosk;
 .pies{/*grid*/
 	color: #ffffff;
 	display: grid;
-	 grid-template-columns: 1fr 1fr 1fr;
+	 grid-template-columns: 1fr 1fr;
 	 grid-gap: 50px;
 }
 
-.pies > .redes, .texto, .contacto{
-
+.pies > .redes, .texto{
 	height: 350px;
 	padding: 10px 15px 0 0;
 	margin-top: 30px;
 }
 .pies h3{
 	font-size: 30px;
+	margin-bottom: 20px;
 }
 .texto{
 border-right: 1px solid;
@@ -245,6 +246,31 @@ border-right: 1px solid;
 .redes{
 border-right: 1px solid;
 }
+.pies li{
+	list-style: none;
+}
+
+.pies a{
+	padding: 20px;
+	color: red;
+	border: solid;
+	text-decoration: none;
+}
+
+.pies ul{
+	column-count: 1;
+
+}
+
+.pies li{
+	padding-top: 10%;	
+}
+
+
+
+
+
+
 
 /*CODIGOS DESCUENTO*/
 
@@ -300,6 +326,15 @@ border-right: 1px solid;
 		width: 100%;
 	}
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -396,4 +431,12 @@ border-right: 1px solid;
 		top: 164.5%;
 		height: 30px;
 	}
+
+	.pies li{
+	padding-top: 40%;	
+
+}
+#segundo{
+	margin-left:-20px;
+}
 }
