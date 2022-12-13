@@ -211,6 +211,75 @@ font-family: mosk;
 }
 
 
+/*secciones*/
+#seccion{
+	
+	 display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+#seccion a{
+	position: absolute;
+	padding-top: 200px;
+	padding-bottom: 170px;
+	padding-left: 210px;
+	padding-right: 170px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#seccion div{
+	background: #ffffff;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid #F2EFEF;
+	border-radius: 20px;
+	width: 400px; height: 400px;
+}
+
+#seccion img{
+	border-bottom:1px solid;
+	margin-bottom: 20px;
+	margin-right: 5px;
+	width: 380px; height: auto;
+}
+#seccion p{
+	
+	font-size: 30px;
+	font-family: fantasy;
+}
+
+#seccion div:hover{
+	transform: scale3d(.9, .9, .9);
+	opacity: .9;
+}
+
+
+
+
+
+
+
+
+
+
+/*cambiar pagina*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*FOOTER*/
 
@@ -219,7 +288,7 @@ font-family: mosk;
 	width: 100%; height: 500px;
 	background: #020518;
 	position: absolute;
-	top: 110%;
+	top: 100%;
 	bottom: 0;
 
 }
@@ -280,7 +349,7 @@ border-right: 1px solid;
 	color: #000000;
 	position: absolute;
 	width: 100%; height: 30px;
-	top: 123%;
+	top: 109%;
 	bottom: 0;
 }
 
@@ -425,10 +494,10 @@ border-right: 1px solid;
 		width: auto; max-height: 200px;
 	}
 	.pies{
-		top: 160%;
+		top: 218%;
 	}
 	.fin{
-		top: 164.5%;
+		top: 222.4%;
 		height: 30px;
 	}
 
@@ -438,5 +507,24 @@ border-right: 1px solid;
 }
 #segundo{
 	margin-left:-20px;
+}
+#seccion{
+	width: 100%;
+	 display: grid;
+      grid-template-columns: 1fr;
+	
+}
+#seccion div{
+	
+	width: 98%;
+	height: 90%;
+}
+#seccion img{
+	width: 280px;
+}
+#seccion a{
+	padding-bottom: 90px;
+	padding-left: 120px;
+	margin-right: 115px;
 }
 }
