@@ -1,0 +1,242 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+	position: relative;
+	height: auto;
+	padding-bottom: 150px;
+	max-height: 10000px;
+	background: #EDF5F3;
+	margin: auto;
+	text-align: center;
+}
+
+.primero{
+	width: 100%;
+	height: 3px;
+	background: #4682b4;
+}
+/*buscador*/
+
+
+/*LOGO*/
+#cabeza {
+	width: 100%; max-height: 200px; min-height: 150px;
+	background-color: #454EFF;
+
+	margin-top: 0px;
+}
+/*LOGO*/
+
+#cabeza > p{
+	color:#000000;
+	font-family: fantasy;
+	letter-spacing: 10px;
+	margin-left: -950px;
+	margin-top:10px;
+	display: inline-block;
+	font-size: 100px;
+	border-bottom: 1px solid;
+
+}
+
+#cabeza > p:hover{
+	font-size: 98px;
+}
+/*BUSCADOR*/
+.buscador{
+	position: absolute;
+	top: 107px;
+	left: 30%;
+}
+#q{
+	width: 70px; height: 30px;
+}
+#text{
+	width: 300px; height: 30px;
+}
+
+/*MENU*/
+#menu{
+	border-top: 1px solid #ffffff;
+	width: 100%; min-height: 20px;
+	background: #4682b4;
+	margin: 0 0 50px 0;
+}
+
+#menu > div{
+	width: 60px; height: auto;
+	display: inline-block;
+	margin: 5.5px 100px 0 100px;
+	padding: 5px 0 7px 0;
+}
+
+#menu div > a{
+	padding: 11px 10px 8px 10px;
+	color: rgb(255 255 255);
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+#menu div > a:hover{
+	background: #DAF4F4;
+	color: rgb(0, 0, 0);
+	transition: .2s ease-in-out ;
+}
+
+
+
+
+#productosR h2{
+	text-align: left;
+	margin: 0 0px 10px 20px;
+	color: #2B2C2B;
+	font-size: 30px;
+	font-family: arial;
+	letter-spacing: 5px;
+}
+
+#productosR{
+	
+	padding: 10px;
+	border-radius: .5%;
+	height: auto;
+	margin: auto;
+}
+#productosR > div{
+	background: #ffffff;
+	margin: 10px 7px 10px 7px;
+	display: inline-block;
+	min-width: 310px; height: 390px;
+	border: 2px solid #F2EFEF;
+	border-radius: 5%;
+}
+#productosR > div:hover{
+	color: rgb(0, 0, 0);
+	box-shadow: 0 10px 7px rgba(0,0,0, 0.5);
+	transform: translate(0, -5px);
+	transition-duration: .3s;
+	transition-timing-function: ease-in-out;
+}
+
+#productosR div > img{
+	width: 280px; height: auto;
+	padding-top: 0px;
+	padding-bottom:10px;
+	border-bottom: 1px solid rgb(227 222 222);
+	
+}
+
+#productosR div > p{
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+#precio{
+padding: 9px 2px 0 0;
+width: 90%;
+text-align: left;
+margin-left: 20px;
+font-size: 18px;
+font-family: mosk;
+}
+
+
+#producto{
+	
+	border: solid;
+}
+.comprar{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	letter-spacing: 5px;
+	border-radius:10px ;
+	background: #F0F3F3;
+	margin: auto ;
+	padding: 12px 90px 12px 90px;
+	font-size: 13px;
+	
+	
+}
+.comprar:hover{
+	background-color: #C8DABC;
+}
+
+
+
+#pagina{
+	margin: auto;
+	width: 90%; height: 50px;
+	
+}
+#pagina ul{
+	margin: auto;
+	width: 90%;
+	padding-top: .6%;
+	padding-bottom: .5%;
+}
+#pagina li{
+	padding-top: 5.2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+	list-style: none;
+}
+#pagina a{
+	border-bottom: 5px solid #C4C4C4;
+	padding:5px 15px 5px 15px;
+	border-radius: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+	background: #DCDBDB;
+	font-size: 20px;
+}
+#pagina a:hover{
+	transition: .5s;
+	opacity: .3;
+
+}
+
+
+
+
+
+/*CELULARES*/
+
+@media screen and (max-width:539px) and (min-width:250px){
+
+	#cabeza > p{
+		margin:30px auto;
+		font-size: 50px
+	}
+	#text{
+		width: 150px;
+		margin:-8px auto;
+	}
+	#productosR > div{
+		margin: 30px auto;
+		min-width: 95%; height: 550px;
+	}
+	#productosR  img{
+		margin-top: 60px;
+		width: 90px;
+	}
+	#precio{
+		margin:50px 0px  0px 40px;
+		padding-top: -20px;
+		padding-bottom: 20px;
+	}
+	#pagina{
+		margin-top: -40px;
+		margin-bottom: 70px;
+	}
+	#pagina ul{
+		
+	}
+	#pagina li{
+		padding-top:15px ;
+
+	}
+	#pagina a{
+		font-size: 15px;
+	}
+}
