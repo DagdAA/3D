@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	position: relative;
+	height: auto;
+	padding-bottom: 150px;
+	max-height: 10000px;
+	background: #EDF5F3;
+	margin: auto;
+	text-align: center;
+}
+
+
+.primero{
+	width: 100%;
+	height: 3px;
+	background: #4682b4;
+}
+/*buscador*/
+
+
+/*LOGO*/
+#cabeza {
+	width: 100%; max-height: 200px; min-height: 150px;
+	background-color: #454EFF;
+
+	margin-top: 0px;
+}
+/*LOGO*/
+#cabeza div a > img{
+	left: 20px;
+	position: absolute;
+	width: 150px;
+}
+#cabeza div a > img:hover{
+	background: red;
+	border-radius: 8px;
+	transform: scale3d(.8, .8, .8);
+	transition: 0.5s;
+}
+
+#cabeza > p{
+	color:#000000;
+	font-family: fantasy;
+	letter-spacing: 10px;
+	margin-left: -850px;
+	margin-top:10px;
+	display: inline-block;
+	font-size: 100px;
+	border-bottom: 1px solid;
+
+}
+
+#cabeza > p:hover{
+	font-size: 98px;
+}
+/*BUSCADOR*/
+.buscador{
+	position: absolute;
+	top: 107px;
+	left: 50%;
+}
+#q{
+	width: 70px; height: 30px;
+}
+#text{
+	width: 300px; height: 30px;
+}
+
+/*MENU*/
+#menu{
+	border-top: 1px solid #ffffff;
+	width: 100%; min-height: 20px;
+	background: #4682b4;
+	margin: 0 0 50px 0;
+}
+
+#menu > div{
+	width: 60px; height: auto;
+	display: inline-block;
+	margin: 5.5px 100px 0 100px;
+	padding: 5px 0 7px 0;
+}
+
+#menu div > a{
+	padding: 11px 10px 8px 10px;
+	color: rgb(255 255 255);
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+#menu div > a:hover{
+	background: #DAF4F4;
+	color: rgb(0, 0, 0);
+	transition: .2s ease-in-out ;
+}
+
+
+
+
+
+
+#productosR1 h2{
+	text-align: left;
+	margin: 0 0px 10px 20px;
+	color: #2B2C2B;
+	font-size: 30px;
+	font-family: arial;
+	letter-spacing: 5px;
+}
+
+#productosR1{
+	width: 99%;
+	padding: 10px;
+	border-radius: .5%;
+	height: auto;
+	
+}
+#productosR1 > div{
+	border: solid;
+	background: #ffffff;
+	margin: 10px 65% 10px 7px;
+	display: inline-block;
+	min-width: 600px; height: 750px;
+	border: 2px solid #F2EFEF;
+}
+
+
+#productosR1 div > img{
+	width: 80%; height: auto;
+	margin-top: 7%;
+	padding-top: 15px;
+	padding-bottom:10px;
+	border: 1px solid rgb(227 222 222);
+	
+}
+
+#productosR1 li{
+	display: inline-block;
+	list-style: none;
+	padding: 1px;
+	margin: 20px;
+	border-radius: 10px;
+}
+#productosR1 ul{
+	margin: auto;
+	width: 90%;
+	
+}
+
+#productosR1 a > img{
+	width: 80px;
+	padding: 5px;
+	border: 1px solid rgb(227 222 222);
+}
+
+
+
+#productosR1 a > img:hover{
+	border: 1px solid #4682b4;
+	border-radius: 5px;
+	transition: border .3s;
+}
+
+#comprar{
+	border-radius: 3px;
+	margin: auto;
+	width: 80%; height: 5.5%;
+	background: green;
+}
+#comprar a{
+	display: inline-block;
+	width: 99%;
+	margin-top: 7px;
+	text-decoration: none;
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #000000;
+}
+#comprar:hover{
+	background: seagreen;
+	border: 1px solid #000000;
+}
+
+/*slider cambia foto producto*/
+ul.slider{
+	position: relative;
+	width: 80%;
+	height: 500px;
+	padding-bottom: 10px;
+}
+
+ul.slider li{
+	position: absolute;
+	left: 10px;
+	background: #ffffff;
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	transition: opacity .5s;
+	
+}
+
+ul.slider li img{
+	margin-top: 20px;
+	border: 1px solid #AAB7B8;
+	border-radius: 10px;
+	width: 450px;
+	height: auto;
+	/*object-fit: cover;se ajusta la imagen y noi se deforma*/
+}
+
+ul.slider li:first-child{/*selecciono la primera imagen first-child*/
+	opacity: 1;
+}
+
+ul.slider li:target{/*al seleccionar los que sigen de li se ponen en */
+opacity: 1;
+}
+
+ul.slider li:target{/*al seleccionar los que sigen de li se ponen en */
+opacity: 1;
+}
+
+
+
+
