@@ -113,18 +113,16 @@ body{
 }
 
 #productosR1{
-	width: 99%;
-	padding: 10px;
+	width: 100%;
 	border-radius: .5%;
 	height: auto;
-	
 }
 #productosR1 > div{
 	border: solid;
 	background: #ffffff;
 	margin: 10px 65% 10px 7px;
 	display: inline-block;
-	min-width: 600px; height: 750px;
+	width: 600px; height: 750px;
 	border: 2px solid #F2EFEF;
 }
 
@@ -173,7 +171,7 @@ body{
 }
 #comprar a{
 	display: inline-block;
-	width: 99%;
+	width: 90%; height: 70px;
 	margin-top: 7px;
 	text-decoration: none;
 	font-size: 20px;
@@ -185,7 +183,12 @@ body{
 	border: 1px solid #000000;
 }
 
+
+
+
+
 /*slider cambia foto producto*/
+
 ul.slider{
 	position: relative;
 	width: 80%;
@@ -194,6 +197,7 @@ ul.slider{
 }
 
 ul.slider li{
+
 	position: absolute;
 	left: 10px;
 	background: #ffffff;
@@ -227,4 +231,86 @@ opacity: 1;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:539px) and (min-width:250px){/*CELULARES*/
+#cabeza > p{
+		margin:30px auto;
+		font-size: 30px;
+	}
+	
+
+	#cabeza div a > img{
+		width: 70px;
+		top: 75px;
+	}
+	.buscador{
+		left: 100px;
+		top: 100px;
+	}
+	#text{
+		width: 70%;
+	}
+
+	/*VISTA PREVIA*/
+
+#productosR1 > div{
+	margin: auto;
+	width: 350px; 
+	height: 550px;
+}
+	ul.slider{	
+		height: 260px;
+		margin-bottom: 20px;
+	}
+	ul.slider li{
+		top: -15px;
+		left: -15px;
+		min-width: 200px;
+	}
+
+	ul.slider li img{
+	margin: 10px auto;
+	border: 1px solid #AAB7B8;
+	width: 300px;
+	object-fit: cover;/*se ajusta la imagen y noi se deforma*/
+}
+
+
+#comprar{
+	width: 50%;
+}
+#productosR1{
+	column-count: 2 1fr 1fr;}
+
+}
 
